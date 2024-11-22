@@ -32,18 +32,3 @@ The project is structured to handle large-scale data processing efficiently, lev
    - Unit tests are implemented using `pytest` for ETL steps.
 
 ---
-
-## **Project Structure**
-
-databricks_datapipeline/
-├── mylib/
-│ ├── extract.py # Handles data extraction and uploading to Databricks FileStore
-│ ├── transform_load.py # Transforms data and loads it into Delta tables
-│ ├── query.py # Queries data from Delta tables
-│ └── test_etl.py # Unit tests for ETL pipeline
-├── main.py # Entry point for the pipeline
-├── .env # Environment variables (Databricks credentials)
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-├── Makefile # Automates tasks such as linting and testing
-└── run_job.py # Script to trigger Databricks jobs programmatically
