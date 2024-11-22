@@ -6,7 +6,7 @@ query:
 	python main.py
 
 test:
-	python -m pytest -vv test_main.py mylib/test_etl.py
+	python -m pytest -vv mylib/test_etl.py
 
 format:	
 	black *.py 
