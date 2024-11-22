@@ -32,3 +32,8 @@ The project is structured to handle large-scale data processing efficiently, lev
    - Unit tests are implemented using `pytest` for ETL steps.
 
 ---
+
+## DataBricks Platform
+
+![](screenshots/runs.png)
+![](screenshots/tasks.png)
