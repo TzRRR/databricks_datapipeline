@@ -1,6 +1,6 @@
 # **Databricks Data Pipeline**
 
-[![CI](https://github.com/TzRRR/databricks_pipeline/actions/workflows/cicd.yml/badge.svg)](https://github.com/TzRRR/databricks_pipeline/actions/workflows/cicd.yml)
+[![CI](https://github.com/TzRRR/databricks_datapipeline/actions/workflows/cicd.yml/badge.svg)](https://github.com/TzRRR/databricks_datapipeline/actions/workflows/cicd.yml)
 
 ## **Project Overview**
 
