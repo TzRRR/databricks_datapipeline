@@ -30,14 +30,10 @@ jobs:
       - name: lint
         run: make lint
 
-      # Step 5: Query the database
-      - name: query
-        run: make query
-
-      # Step 6: Run tests
+      # Step 5: Run tests
       - name: test
         run: make test
 
-      # Step 7: Format the codebase
+      # Step 6: Format the codebase
       - name: format
         run: make format
